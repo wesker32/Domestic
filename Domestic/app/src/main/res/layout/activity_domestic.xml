@@ -12,15 +12,6 @@
     android:background="#000"
     tools:context="com.example.wi.domestic.Domestic">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/cud"
-        android:layout_marginTop="97dp"
-        android:id="@+id/imageView18"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
-
     <TextView
         android:text="Domestic"
         android:layout_width="wrap_content"
@@ -32,23 +23,31 @@
         android:layout_alignTop="@+id/imageView18"
         android:layout_centerHorizontal="true" />
 
+    <Button
+        android:text="ENTRAR"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="51dp"
+        android:id="@+id/btn_Entrar"
+        android:layout_width="140dp"
+        android:layout_height="50dp" />
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/casar"
         android:id="@+id/imageView19"
+        android:layout_marginBottom="52dp"
         android:layout_alignBottom="@+id/textView2"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="36dp" />
+        android:layout_centerHorizontal="true" />
 
-    <Button
-        android:text="ENTRAR"
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="51dp"
-        android:id="@+id/btn_Entrar" />
+        app:srcCompat="@drawable/cud"
+        android:id="@+id/imageView18"
+        android:layout_above="@+id/btn_Entrar"
+        android:layout_alignParentStart="true" />
 
 
 </RelativeLayout>
